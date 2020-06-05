@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css"/>
+</head>
+<body>
+<!-- Navbar Begin -->
+<nav class="uk-navbar-container uk-margin-medium-bottom" uk-navbar>
+    <div class="uk-navbar-center"><div>
+        <a class="uk-navbar-item uk-logo" href="">
+            <img class="uk-height-small" src="">Logo</img>
+        </a>
+        <div id="navigation" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-list uk-list-divider">
+                    <li><img class="uk-height-small"src="">Logo</img></li>
+                    <li><a href="#cards">Cards</a></li>
+                    <li><a href="#table">Table</a></li>
+                    <li><a href="#list">List</a></li>
+                </ul>
+            </div>
+        </div>
+        <a uk-toggle="target: #navigation" class="uk-navbar-toggle" uk-navbar-toggle-icon></a>
+    </div></div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Cards Begin -->
+<div class="uk-section uk-section-muted uk-margin-medium-bottom">
+<div id="cards" class="uk-container uk-width-2-3@m">
+    <h3>Videolar</h3>
+    <a href="#modal-center" uk-toggle><span class="uk-badge">A Notification with Modal</span></a>
+    <br><br>
+    <div id="modal-center" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <h2 class="uk-modal-title uk-text-small uk-text-bold">A Notification with Modal</h2>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <img class="uk-width-expand uk-height-large" src="https://images.pexels.com/photos/273695/pexels-photo-273695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </div>
+    </div>
+    <div class="uk-child-width-1-4@s uk-text-center uk-grid-match" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-badge uk-label">5.06.2020</div>
+                <div class="uk-card-media-top">
+                    <img src="https://images.pexels.com/photos/3828744/pexels-photo-3828744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold">Card Name</h3>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-badge uk-label">5.06.2020</div>
+                <div class="uk-card-media-top">
+                    <img src="https://images.pexels.com/photos/2422896/pexels-photo-2422896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold">Card Name</h3>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-badge uk-label">5.06.2020</div>
+                <div class="uk-card-media-top">
+                    <img src="https://images.pexels.com/photos/2944542/pexels-photo-2944542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold">Card Name</h3>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-badge uk-label">5.06.2020</div>
+                <div class="uk-card-media-top">
+                    <img src="https://images.pexels.com/photos/2033332/pexels-photo-2033332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold">Card Name</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Cards End -->
+
+<!-- Table Begin-->
+<div class="uk-section uk-section-muted uk-margin-medium-bottom">
+<div id="table" class="uk-container uk-width-2-3@m">
+<h3>Example Table</h3>
+<table class="uk-table uk-table-divider uk-width-1-2 uk-width-1-1@s">
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Name</th>
+            <th>Speaker</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Card Name</td>
+            <td><a href="">Event Name with a Link</a></td>
+            <td>Speaker</td>
+        </tr>
+        <tr>
+            <td>Card Name</td>
+            <td><a href="">Event Name with a Link</a></td>
+            <td>Speaker</td>
+        </tr>
+        <tr>
+            <td>Card Name</td>
+            <td><a href="">Event Name with a Link</a></td>
+            <td>Speaker</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+<!-- Table End-->
+
+<!-- List Begin -->
+<div class="uk-section uk-section-muted uk-margin-medium-bottom">
+    <div id="list" class="uk-container uk-width-2-3@m">
+        <h3>Example List</h3>
+        <ul class="uk-list uk-list-divider">
+            <li><span uk-icon="github"></span><a href=""> GitHub</a></li>
+            <li><span uk-icon="youtube"></span><a href=""> Youtube</a></li>
+            <li><span uk-icon="rss"></span><a href=""> Blog</a></li>
+        </ul>
+    </div>
+</div>
+<!-- List End-->
+
+<!-- Notices Begin-->
+<div class="uk-section uk-section-muted">
+    <div id="notice" class="uk-container uk-width-2-3@m uk-height-1-1">
+        <span uk-icon="mail"></span><a href=""> E-Mail</a><br>
+        <a href="">Example Site</a><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus aperiam recusandae eos eaque sint nobis officiis adipisci sed quisquam consequuntur beatae harum laborum non dolores, natus perferendis molestias. Aliquam.
+    </div>
+</div>
+<!-- Notices End-->
+
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
