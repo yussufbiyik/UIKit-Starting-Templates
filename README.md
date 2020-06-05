@@ -7,5 +7,3 @@ I realized that UIKit does not have that much examples, so here i am making exam
 ## What's New
 * README.md
 * First Example
-# UIKit Examples
-I realized that UIKit does not have that much examples, so here i am making examples.
