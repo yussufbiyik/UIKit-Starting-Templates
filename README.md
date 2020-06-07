@@ -14,7 +14,7 @@ I realized that UIKit does not have that much examples, so here i am making exam
 * Article Page Example
 
 ## Note
-There might be unnecessary classes or some mistakes, if you come across to something like this you can send a issue or you can fix and send as a pull request 👍
+> There might be unnecessary classes or some mistakes, if you come across to something like this you can send a issue or you can fix and send as a pull request 👍
 
 ## Credits
 * Pictures from pexels.com
