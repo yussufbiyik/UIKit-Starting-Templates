@@ -2,6 +2,7 @@
 I realized that UIKit does not have that much examples, so here i am making examples.
 
 ## List of Examples
+* All Examples ([Inspect Collection](https://codepen.io/collection/nmpxde))
 * Example 1 ([Inspect](https://codepen.io/yussufjpg/pen/vYNoaKo))
 * Personal Page ([Inspect](https://codepen.io/yussufjpg/pen/dyGoyoZ))
 * Pricing Page ([Inspect](https://codepen.io/yussufjpg/pen/VweejyW))
