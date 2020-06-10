@@ -4,12 +4,12 @@ I realized that UIKit does not have that much examples, so here i am making exam
 ## List of Examples
 * Example 1 ([Inspect](https://codepen.io/yussufjpg/pen/vYNoaKo))
 * Personal Page ([Inspect](https://codepen.io/yussufjpg/pen/dyGoyoZ))
+* Pricing Page ([Inspect](https://codepen.io/yussufjpg/pen/VweejyW))
 
 ## What's New
-* README.md
-* First Example
+* Pricing Page
 
-## Plans
+## Future Plans
 * A simple documentation page example
 * Article Page Example
 

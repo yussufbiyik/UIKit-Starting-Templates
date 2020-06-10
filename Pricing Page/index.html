@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pricing Page Example with UIKit</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><a href="">Home</a></li>
+                <li class="uk-active"><a href="">Pricing</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Content Begin -->
+    <div class="uk-text-center uk-margin-large-top">
+
+        <h1 class="uk-h1">Pricing</h1>
+        <span class="uk-text-meta">You can easily make price tables with UIKit</span>
+        
+        <div class="uk-width-2-3 uk-align-center">
+            <!-- Grid Begin -->
+            <div class="uk-child-width-1-3@s uk-text-center uk-margin-large-top uk-grid-match" uk-grid>
+                <!-- Cards Begin -->
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Starter</h3>
+                        <hr>
+                        <div class="uk-card-body">
+                        <span class="uk-h2">0$/mo</span>
+                            <p class="uk-margin-top">
+                                Access to assets<br>24/7 Online Help<br>1 free asset per month
+                            </p>
+                            <button class="uk-button uk-button-default uk-width-expand">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="uk-animation-toggle" tabindex="0">
+                    <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-small">
+                        <h3 class="uk-card-title uk-text-italic">Professional</h3>
+                        <hr>
+                        <div class="uk-card-body">
+                            <span class="uk-h2">25$/mo</span>
+                            <p class="uk-margin-top">
+                                High priority<br>+175 Bonus assets<br>No need for credit
+                            </p> 
+                            <button class="uk-button uk-button-default uk-button-primary uk-width-expand">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Intermidate</h3>
+                        <hr>
+                        <div class="uk-card-body">
+                            <span class="uk-h2">10$/mo</span>
+                            <p class="uk-margin-top">
+                                Medium priority<br>Offline access<br>Modify assets
+                            </p>
+                            <button class="uk-button uk-button-default uk-width-expand">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards End -->
+            </div>
+            <!-- Grid End -->
+        </div>
+    </div>
+    <!-- Content End -->
+</body>
