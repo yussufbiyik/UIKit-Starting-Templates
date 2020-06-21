@@ -5,10 +5,11 @@ I realized that UIKit does not have that much examples, so here i am making exam
 * All Examples ([Inspect Collection](https://codepen.io/collection/nmpxde))
 * Example 1 ([Inspect](https://codepen.io/yussufjpg/pen/vYNoaKo))
 * Personal Page ([Inspect](https://codepen.io/yussufjpg/pen/dyGoyoZ))
+* Personal Page 2 ([Inspect](https://codepen.io/yussufjpg/pen/KKVWovV))
 * Pricing Page ([Inspect](https://codepen.io/yussufjpg/pen/VweejyW))
 
 ## What's New
-* Pricing Page
+* Personal Page 2
 
 ## Future Plans
 * A simple documentation page example
