@@ -17,6 +17,7 @@ I realized that UIKit does not have that much examples, so here i am making exam
 
 ## Note
 > There might be unnecessary classes or some mistakes, if you come across to something like this you can send a issue or you can fix and send as a pull request 👍
+> I only test these templates with Google Chrome Presets so it might look bad in spesific resolutions.
 
 ## Credits
 * Pictures from pexels.com
