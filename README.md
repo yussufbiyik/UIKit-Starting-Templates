@@ -18,7 +18,7 @@ I realized that UIKit does not have that much examples, so here i am making exam
 ## Note
 > There might be unnecessary classes or some mistakes, if you come across to something like this you can send a issue or you can fix and send as a pull request 👍
 
-> I only test mobile adaptation of these templates with Google Chrome DevTools(CTS+SHIFT+I) Presets so it might look bad in spesific resolutions 😕
+> I only test mobile adaptation of these templates with Google Chrome DevTools(CTRL+SHIFT+I) Presets so it might look bad in spesific resolutions 😕
 
 ## Credits
 * Pictures from pexels.com
