@@ -21,4 +21,4 @@ I realized that UIKit does not have that much examples, so here i am making exam
 > I only test mobile adaptation of these templates with Google Chrome DevTools(CTRL+SHIFT+I) Presets so it might look bad in spesific resolutions 😕
 
 ## Credits
-* Pictures from pexels.com
+* Pictures from pexels.com and UIKit website
