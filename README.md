@@ -7,6 +7,7 @@ I realized that UIKit does not have that much examples, so here i am making exam
 * Personal Page ([Inspect](https://codepen.io/yussufjpg/pen/dyGoyoZ))
 * Personal Page 2 ([Inspect](https://codepen.io/yussufjpg/pen/KKVWovV))
 * Pricing Page ([Inspect](https://codepen.io/yussufjpg/pen/VweejyW))
+* Pinterest Clone ([Inspect](https://codepen.io/pen?template=oNbWpeV))
 
 ## What's New
 * Personal Page 2
