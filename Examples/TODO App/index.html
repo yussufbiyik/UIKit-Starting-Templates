@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div class="uk-container uk-width-2-3@s uk-margin-large-top uk-margin-large-bottom">
+        
+        <div class="uk-child-width-1-1" uk-grid>
+
+            <!-- Menu Begin -->
+            <div class="uk-child-width-expand@s" uk-grid>
+
+                <div>
+                    <div class="uk-inline uk-width-medium@s">
+                        <span class="uk-form-icon" uk-icon="icon: search"></span>
+                        <input class="uk-input" type="search" placeholder="List Name">
+                    </div>
+                    <button class="uk-button uk-button-default">Search</button>
+                </div>
+
+                <div class="uk-margin-remove">
+                    <div class="uk-align-right">
+                        <button class="uk-button uk-button-default uk-button-primary">Add</button>
+                        <button class="uk-button uk-button-default uk-button-danger">Delete</button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Menu End -->
+
+            <div><hr class="uk-divider-icon"></div>
+
+            <!-- Example Lists Begin -->
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-text-left">
+                    <div class="uk-card-header">
+                        <h3 class="uk-card-title">TODO List Name</h3>
+                    </div>
+                    <div class="uk-card-body">
+                        <ul class="uk-list uk-list-striped">
+                            <li>List item 1</li>
+                            <li>List item 2</li>
+                            <li>List item 3</li>
+                        </ul>                    
+                    </div>
+                </div>
+            </div>
+
+            <div><hr></div>
+
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-text-left">
+                    <div class="uk-card-header">
+                        <h3 class="uk-card-title">UIKit Starter Examples</h3>
+                    </div>
+                    <div class="uk-card-body">
+                        <ul class="uk-list uk-list-striped">
+                            <li>Add example documentation page</li>
+                            <li>Add example artice page</li>
+                            <li>Fix comment lines</li>
+                        </ul>                    
+                    </div>
+                </div>
+            </div>
+
+            <div><hr></div>
+
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-text-left">
+                    <div class="uk-card-header">
+                        <h3 class="uk-card-title">UIKit VS Code Extension</h3>
+                    </div>
+                    <div class="uk-card-body">
+                        <ul class="uk-list uk-list-striped">
+                            <li>Add remaining snippets</li>
+                        </ul>                    
+                    </div>
+                </div>
+            </div>
+            <!-- Example Lists End -->
+
+            <div><hr class="uk-divider-icon"></div>
+        </div>
+    </div>
+</body>
+</html>
